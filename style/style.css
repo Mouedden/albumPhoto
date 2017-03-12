@@ -1,3 +1,28 @@
 body {
     background-color: #ebebeb;
 }
+.nav {
+  text-align: center;
+  font-size: 22px;
+}
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 20px 10px;
+  border: 1px solid teal;
+  margin: 10px auto 10px auto;
+  color: white;
+  background-color: teal;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: fantasy;
+  border-radius: 5px;
+}
+
+.container > img {
+  float: right;
+  width: 200px;
+  height: 200px;
+  border-radius: 6px;
+  margin: 0 0 0 8px;
+}
