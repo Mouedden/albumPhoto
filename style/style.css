@@ -26,3 +26,26 @@ body {
   border-radius: 6px;
   margin: 0 0 0 8px;
 }
+.item {
+    background:  #ebebeb;
+    height: 210px;
+    width:  210px;
+    margin:  5px;
+}
+img {
+    height:  210px;
+    width:  210px;
+    border-radius:  100%;
+}
+.row {
+    float: left;
+    padding:  50px;
+}
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img:hover {
+    border-radius:  10px;
+}
